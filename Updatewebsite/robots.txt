@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /css/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /img/
+
+Sitemap: https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite/sitemap.xml
