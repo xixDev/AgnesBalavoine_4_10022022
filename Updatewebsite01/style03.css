@@ -680,7 +680,7 @@ a {
 
 /*#P4 font-size 11 // acess*/
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -786,6 +786,11 @@ h4 {
     color: #fff!important;
 }
 
+/* P4 ajout */
+.tc-black {
+    color: #000!important;
+}
+
 /* .tc-white {
     color: #F3976C!important;
 } */
@@ -793,8 +798,8 @@ h4 {
 
 /* #P4 changement orange plus contrasté F3976C*/
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #000;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {

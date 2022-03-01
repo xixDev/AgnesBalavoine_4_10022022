@@ -25,64 +25,77 @@
 	<!-- #P4 Ajouter meta pour reseaux sociaux -->
 
 
-    <!-- #P4 bootstrap minifié / chargement -->
+    <!-- #P4 CSS fichiers minifiés / chargement -->
 	<link rel="stylesheet" type="text/css" href="./css02/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style02.css">
+	<link rel="stylesheet" type="text/css" href="style03.css">
 	<link rel="stylesheet" type="text/css" href="./css02/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css02/et-line.min.css">
 	
-    <!-- # deplacement fichiers JS fin de body pr vitesse chargement -->
+    <!-- #P4 deplacement fichiers JS fin de body pr vitesse chargement -->
 	<!-- <script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script> -->
-<!-- # deplacement fichiers JS fin de body pr vitesse chargement -->
-<!-- #P4 02 fichiers JS minifiés + mis en fin de body + defer -->
+
 
 
     
 <!-- Analytics -->
- 
+ <!-- #P4 ajout Google Analytics -->
 <!-- Analytics END -->
 <!-- #P4 ajout Google search console -->
 <!-- <meta name="google-site-verification" content="PqJIHgFqShMM1emadpkSQSy5uMJo_po5RZKJdZOEozQ" /> -->
+
+<!-- #P4 ajout balises sémantiques -->
 </head>
 
 <body>
 <!-- Principal conteneur -->
-<div class="page-container">
+<!-- #P4 ajout balises sémantiques : main, header, footer -->
+<main class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
-
-		<nav class="navbar row">
+       <!-- #P4 ajout breadcrumb balises aria / acess-->
+		<!-- <nav class="navbar row"> -->
+			<nav class="navbar row" aria-label="breadcrumb">
 			<!-- ##mettre balises semantiques article-->
+			<!-- ##ajout width sur images-->
+
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!-- #P4 07 black hat / keywords-->
+				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" width="214" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!-- #P4 07 black hat / keywords-->
+				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+				<!-- #P4  balises aria-->
 				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li> 
-					<!-- #P4 changement nom de page et lien / enlever lien contact-->
-					<li>
-						<a href="agence-web-lyon-lachouette.html">Nous contacter</a>
-					</li>
+					
+						<li class="breadcrumb-item">
+							<a href="index.html">Accueil</a>
+						</li>
+
+						<!-- <li> 
+						</li>  -->
+						<!-- #P4 changement nom de page et lien / enlever lien contact-->
+						<li class="breadcrumb-item active" aria-current="page">
+							<a href="agence-web-lyon-lachouette.html">Nous contacter</a>
+						</li>
+					
 				</ul>
+			
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
@@ -186,12 +199,12 @@
 	<div class="container bloc-lg">
 		<!-- #P4 enlever texture / pr contraste-->
 		<!-- <div class="row tight-width-whitespace black-background"> -->
-			<div class="row tight-width-whitespace ">
+			<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
 
 				<!-- *#P4 couleur typo / pr contraste-->
 				<!-- <h2 class="mg-md text-center tc-white"> -->
-				<h2 class="mg-md text-center tc-blue">
+				<h2 class="mg-md text-center tc-white">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
 				</h2>
 				<p class="text-center white">
@@ -287,11 +300,12 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<!-- *#P4 acess / contraste texte en noir tc-blue-->
+				<p class="text-center tc-black">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
@@ -315,9 +329,10 @@
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+					<!-- #P4 07 black hat / keywords-->
+					<!-- <div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
 				</div>
-				<!-- #P4 Black hat-->
+				<!-- #P4 07 black hat / keywords-->
 				<!-- <div class="row"> -->
 					<!-- <div class="col-sm-4">
 						Partenaires
@@ -360,16 +375,18 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
-</div>
+</main>
 <!-- Principal conteneur END -->
+<!-- # deplacement fichiers JS fin de body pr vitesse chargement -->
+<!-- #P4 02 fichiers JS minifiés + mis en fin de body + defer -->
 <script defer src="./js02/jquery-2.1.0.min.js"></script>
 <script defer src="./js02/bootstrap.min.js"></script>
 <script defer src="./js02/blocs.min.js"></script>
 <script defer src="./js02/jquery.min.touchSwipe.js"></script>
-<script defer src="./js02/gmaps.min.js"></script>  
+<script defer src="./js02/gmaps.min.js"></script>    
 
 
 </body>
