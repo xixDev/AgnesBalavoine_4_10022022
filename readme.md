@@ -10,6 +10,6 @@ Démos
 #Site original : 
 https://xixdev.github.io/AgnesBalavoine_4_10022022/Startingwebsite/index.html
 #Site SEO : 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite/index.html
+https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/index.html
 
 
