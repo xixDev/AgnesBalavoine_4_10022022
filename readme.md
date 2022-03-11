@@ -14,26 +14,16 @@ DEMOS
 https://xixdev.github.io/AgnesBalavoine_4_10022022/Startingwebsite/index.html
 
 ####################################################
-#Site Optimizé 
+#Site optimisée 
 ####################################################
-## Version 01 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/index.html
-
-## Version 02 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/index_balises.html
-
-## Version 03
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/index_balises_acess.html
+## Version optimisée
+https://xixdev.github.io/AgnesBalavoine_4_10022022/Finalwebsite/index.html
 
 ####################################################
-# Page Contact
-## Version 01 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/agence-web-lyon-lachouette.html
+# Page Contact 
+## Version optimisée
+https://xixdev.github.io/AgnesBalavoine_4_10022022/Finalwebsite/agence-web-lyon-lachouette.html
 
-## Version 02 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/agence-web-lyon-lachouette_balises_acess.html
 
-## Version 03 
-https://xixdev.github.io/AgnesBalavoine_4_10022022/Updatewebsite01/agence-web-lyon-lachouette_balises_acess_formulaire.html
 
 
